@@ -14,7 +14,7 @@
 			<key>CFBundleTypeIconFile</key>
 			<string>InsideJob</string>
 			<key>CFBundleTypeName</key>
-			<string>Minecraft level.dat</string>
+			<string>Minecraft level data files</string>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>NSDocumentClass</key>

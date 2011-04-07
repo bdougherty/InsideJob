@@ -33,6 +33,10 @@ After changing your inventory you will need to save the currently open world usi
 
 ### Release Notes
 
+#### 1.2 - April 7, 2011
+
+- Updated to Minecraft 1.4, uses single images for blocks & items, despite the clusterfuck of code.
+
 #### 1.1.1 - March 27, 2011
 
 - Fixed delete not working in search field.

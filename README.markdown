@@ -33,6 +33,11 @@ After changing your inventory you will need to save the currently open world usi
 
 ### Release Notes
 
+#### 1.3 - April 20,2011
+
+- Updated to Minecraft 1.5 (Powered Rail, Detector Rail, Web (no image yet)).
+- Added a Damage Value help window for colored dyes, wool, slabs, saplings etc etc.
+
 #### 1.2 - April 7, 2011
 
 - Updated to Minecraft 1.4, uses single images for blocks & items, despite the clusterfuck of code.

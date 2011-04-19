@@ -48,6 +48,7 @@
 - (IBAction)updateItemSearchFilter:(id)sender;
 - (IBAction)makeSearchFieldFirstResponder:(id)sender;
 - (IBAction)itemTableViewDoubleClicked:(id)sender;
+- (IBAction)coloredHelp:(id)sender;
 
 
 @end

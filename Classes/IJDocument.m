@@ -48,6 +48,13 @@
     return @"Document";
 }
 
+- (IBAction)coloredHelp:(id)sender {
+    IJDocument *InsideJobOwner = [[IJDocument alloc] init];
+    if (![NSBundle loadNibNamed:@"ColoredItemInfo" owner:InsideJobOwner]) {
+        NSLog(@"Error loading Nib for document!");
+    }
+}
+
 - (void)windowControllerDidLoadNib:(NSWindowController *)windowController
 {
 	[inventoryView setRows:3 columns:9 invert:NO];

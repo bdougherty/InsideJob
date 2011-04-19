@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* InsideJobAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* InsideJobAppDelegate.m */; };
+		2741A1AD135D9A3A00936BCC /* ColoredItemInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2741A1AC135D9A3A00936BCC /* ColoredItemInfo.xib */; };
+		2741A1B1135D9CB600936BCC /* slab-damage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2741A1AF135D9CB600936BCC /* slab-damage.png */; };
+		2741A1B2135D9CB600936BCC /* wool-damage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2741A1B0135D9CB600936BCC /* wool-damage.png */; };
 		27A25E4B134DBD42004604A5 /* block-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A25D8E134DBD42004604A5 /* block-1.png */; };
 		27A25E4C134DBD42004604A5 /* block-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A25D8F134DBD42004604A5 /* block-10.png */; };
 		27A25E4D134DBD42004604A5 /* block-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A25D90134DBD42004604A5 /* block-11.png */; };
@@ -229,6 +232,9 @@
 		256AC3D80F4B6AC300CF3369 /* InsideJobAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsideJobAppDelegate.h; sourceTree = "<group>"; };
 		256AC3D90F4B6AC300CF3369 /* InsideJobAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsideJobAppDelegate.m; sourceTree = "<group>"; };
 		256AC3F00F4B6AF500CF3369 /* InsideJob_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsideJob_Prefix.pch; sourceTree = "<group>"; };
+		2741A1AC135D9A3A00936BCC /* ColoredItemInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColoredItemInfo.xib; sourceTree = "<group>"; };
+		2741A1AF135D9CB600936BCC /* slab-damage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slab-damage.png"; sourceTree = "<group>"; };
+		2741A1B0135D9CB600936BCC /* wool-damage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wool-damage.png"; sourceTree = "<group>"; };
 		27A25D8E134DBD42004604A5 /* block-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block-1.png"; sourceTree = "<group>"; };
 		27A25D8F134DBD42004604A5 /* block-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block-10.png"; sourceTree = "<group>"; };
 		27A25D90134DBD42004604A5 /* block-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block-11.png"; sourceTree = "<group>"; };
@@ -738,6 +744,7 @@
 				66BC077212628257005A23F4 /* ItemPropertiesView.xib */,
 				668B28D8125E370A0060BF71 /* Items.csv */,
 				66BCFC2A125E9A51005A23F4 /* Credits.rtf */,
+				2741A1AC135D9A3A00936BCC /* ColoredItemInfo.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -802,6 +809,8 @@
 		66BC07711262823E005A23F4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2741A1AF135D9CB600936BCC /* slab-damage.png */,
+				2741A1B0135D9CB600936BCC /* wool-damage.png */,
 				27A25D8D134DBD42004604A5 /* Blocks */,
 				663803B1131769E90015CFAD /* blockNotFound.png */,
 				66BCFC35125EA53E005A23F4 /* InsideJob.icns */,
@@ -1059,6 +1068,9 @@
 				27A25F05134DBD42004604A5 /* block-93.png in Resources */,
 				27A25F06134DBD42004604A5 /* block-94.png in Resources */,
 				27A25F07134DBD42004604A5 /* block-95.png in Resources */,
+				2741A1AD135D9A3A00936BCC /* ColoredItemInfo.xib in Resources */,
+				2741A1B1135D9CB600936BCC /* slab-damage.png in Resources */,
+				2741A1B2135D9CB600936BCC /* wool-damage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

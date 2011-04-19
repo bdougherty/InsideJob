@@ -23,7 +23,7 @@ const static CGFloat cellOffset = 40;
 
 - (id)initWithFrame:(NSRect)frameRect
 {
-    if (self = [super initWithFrame:frameRect])
+    if (self == [super initWithFrame:frameRect])
 	{
         // Initialization code here.
 		[self registerForDraggedTypes:[NSArray arrayWithObjects:IJPasteboardTypeInventoryItem, nil]];

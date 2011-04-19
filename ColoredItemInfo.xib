@@ -185,11 +185,12 @@
 							<string key="NSFrame">{{15, -3}, {450, 17}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="868914221">
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">138412032</int>
-								<string key="NSContents">This also applies to dyes Refer to minecraftwiki.net for damage values.</string>
+								<string key="NSContents">This also applies to dyes &amp; saplings. Refer to minecraftwiki.net for damage values.</string>
 								<object class="NSFont" key="NSSupport">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">11</double>

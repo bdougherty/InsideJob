@@ -461,7 +461,7 @@
 		66BCFC2A125E9A51005A23F4 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		66BCFC35125EA53E005A23F4 /* InsideJob.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = InsideJob.icns; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* InsideJob-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InsideJob-Info.plist"; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* Inside Job.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inside Job.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* Inside Job.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Inside Job.app"; path = "/Users/Kyle/Developer/InsideJob/build/Release/Inside Job.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -514,7 +514,6 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* Inside Job.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";

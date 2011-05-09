@@ -26,7 +26,7 @@ const static CGFloat cellOffset = 40;
     if (self == [super initWithFrame:frameRect])
 	{
         // Initialization code here.
-		[self registerForDraggedTypes:[NSArray arrayWithObjects:IJPasteboardTypeInventoryItem, nil]];
+        [self registerForDraggedTypes:[NSArray arrayWithObjects:IJPasteboardTypeInventoryItem, nil]];
     }
     return self;
 }
@@ -218,7 +218,7 @@ const static CGFloat cellOffset = 40;
 	
 	[pasteboard setData:[NSKeyedArchiver archivedDataWithRootObject:item]
 				forType:IJPasteboardTypeInventoryItem];
-	
+
 	NSImage *image = item.image;
 	
 	// Now clear out item, if the option key isn't down (option for copy):

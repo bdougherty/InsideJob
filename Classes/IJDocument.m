@@ -49,10 +49,11 @@
 }
 
 - (IBAction)coloredHelp:(id)sender {
-    IJDocument *InsideJobOwner = [[IJDocument alloc] init];
-    if (![NSBundle loadNibNamed:@"ColoredItemInfo" owner:InsideJobOwner]) {
-        NSLog(@"Error loading Nib for document!");
-    }
+    [NSBundle loadNibNamed:@"ColoredItemInfo" owner:self];
+}
+
+- (IBAction)addCustomItemWindow:(id)sender {
+    [NSBundle loadNibNamed:@"AddItemView" owner:self];
 }
 
 - (void)windowControllerDidLoadNib:(NSWindowController *)windowController

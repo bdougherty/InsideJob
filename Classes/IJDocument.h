@@ -49,6 +49,7 @@
 - (IBAction)makeSearchFieldFirstResponder:(id)sender;
 - (IBAction)itemTableViewDoubleClicked:(id)sender;
 - (IBAction)coloredHelp:(id)sender;
+- (IBAction)addCustomItemWindow:(id)sender;
 
 
 @end

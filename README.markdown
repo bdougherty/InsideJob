@@ -33,7 +33,14 @@ After changing your inventory you will need to save the currently open world usi
 
 ### Release Notes
 
-#### 1.3 - April 20,2011
+
+#### 1.4 - May 27, 2011
+
+- Updated to Minecraft 1.6 (Dead Shrub, Trapdoor)
+- Added Web image.
+- Mod item support. Just add "itemID,Name" to Items.csv and its image named "block-[itemID].png" to the Blocks folder. [itemID] being the mod item's ID.
+
+#### 1.3 - April 20, 2011
 
 - Updated to Minecraft 1.5 (Powered Rail, Detector Rail, Web (no image yet)).
 - Added a Damage Value help window for colored dyes, wool, slabs, saplings etc etc.

@@ -26,6 +26,7 @@
 27,Powered Rail
 28,Detector Rail
 30,Web
+32,Dead Shrub
 35,Wool
 37,Yellow Flower
 38,Red Rose
@@ -89,6 +90,7 @@
 92,Cake Block
 93,Redstone Repeater (off)
 94,Redstone Repeater (on)
+96,Trapdoor
 256,Iron Spade
 257,Iron Pickaxe
 258,Iron Axe

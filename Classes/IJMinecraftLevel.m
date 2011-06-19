@@ -180,6 +180,12 @@
 	NSMutableArray *output = [NSMutableArray array];
 	
 	NSFileManager *fm = [NSFileManager defaultManager];
+    
+    NSString *symbolicLink = [fm destinationOfSymbolicLinkAtPath:path error:NULL];
+    if (symbolicLink) {
+        path = symbolicLink;
+    }
+    
 	NSDirectoryEnumerator *dirEnum;
 	dirEnum = [fm enumeratorAtURL:[NSURL fileURLWithPath:path]
 	   includingPropertiesForKeys:[NSArray arrayWithObjects:NSFileType, nil]
